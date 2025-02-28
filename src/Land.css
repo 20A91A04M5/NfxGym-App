@@ -496,8 +496,7 @@ h2 {
   color: #ffcc00;
 }
 
-/* ----- Media Query Correction ----- */
-/* Changed from "width > 768px" to standard "min-width: 768px" */
+
 @media (min-width: 769px) {
   nav {
     position: fixed;
