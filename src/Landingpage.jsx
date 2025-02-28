@@ -1,12 +1,4 @@
-// import React from 'react'
 
-// const Landingpage = () => {
-//   return (
-
-//   )
-// }
-
-// export default Landingpage
 
 import React, { useEffect } from "react";
 import "./Land.css";
@@ -44,7 +36,7 @@ const Landingpage = () => {
 
     navLinks.addEventListener("click", handleNavClick);
 
-    // ScrollReveal Code (assuming ScrollReveal is loaded via CDN)
+
     const scrollRevealOption = {
       distance: "50px",
       origin: "bottom",
@@ -496,12 +488,7 @@ const Landingpage = () => {
         </footer>
       </section>
 
-      {/* <section>
-        <LoginForm />
-      </section>
-      <section>
-        <SignupPage />
-      </section> */}
+    
     </>
   );
 };
