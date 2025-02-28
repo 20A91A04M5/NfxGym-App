@@ -1,0 +1,46 @@
+
+/* SignupPage.css */
+
+
+.card.bg-body-tertiary {
+    background: linear-gradient(120deg,black,#000000, #ffffff);
+    color: #ece6e6e1; 
+  }
+  
+  /* Ensure labels and inputs have proper contrast */
+  .card.bg-body-tertiary .form-label {
+    color: #2b2a2a;
+  }
+  .btn-link{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: blue;
+  }
+  
+  .btn-link:hover{
+    color: red;
+    transform: scale(1.5);
+  }
+  
+  .card.bg-body-tertiary .form-control {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #dad7d7;
+  }
+  
+  /* Optional: Adjust placeholder color for better visibility */
+  .card.bg-body-tertiary .form-control::placeholder {
+    color: #5b5757;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 1025.98px) {
+    .card.bg-body-tertiary {
+      background: linear-gradient(135deg, #ffffff, #000000);
+      height: 100vh;
+    }
+    
+  }
+  

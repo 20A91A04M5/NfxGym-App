@@ -1,0 +1,108 @@
+
+/* #sec1{
+    background: linear-gradient(120deg,black,white);
+}
+.div2 li{
+    list-style: none;
+    column-gap: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    button{
+        padding: 10px;
+        border-radius: 30px;
+        font-size: large;
+        border: none;
+        color: white;
+        background-color: black;
+    }
+} */
+
+
+/* CustomNavbar.css */
+
+/* Navbar background with a black-to-white linear gradient */
+.custom-navbar {
+    background-color: black;
+    padding: 10px 20px;
+  }
+  #sec1{
+    background-color: black;
+  }
+  
+  /* Logo and app name styling */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Ensure the brand text remains white */
+  .navbar-brand span {
+    color: #fff;
+  }
+  
+  /* Navigation link base styling with animated underline */
+  .custom-nav-link {
+    position: relative;
+    color: #fff !important;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+  }
+  
+  /* Underline hidden by default */
+  .custom-nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #c2ea0c;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+  }
+  
+  /* Animate underline on hover */
+  .custom-nav-link:hover::after {
+    width: 100%;
+  }
+  .navbar-toggler-icon{
+    background-color: aliceblue;
+    padding: 20px;
+  }
+  .nav-link{
+    text-align: center;
+}
+  
+  /* ----------------- */
+  /* Media Queries     */
+  /* ----------------- */
+  
+  /* Small devices (max-width: 767.98px) */
+  /* On small screens, the Bootstrap Navbar automatically collapses
+     and shows the toggle (hamburger) button. Additional CSS here if needed */
+  @media (max-width: 767.98px) {
+    .custom-navbar {
+      /* Optional adjustments for small screens */
+      padding: 10px;
+
+    }
+    /* .nav-link{
+        text-align: center;
+    } */
+   
+  }
+  
+  /* Medium devices (768px to 991.98px) */
+  /* No additional changes required since Bootstrap handles it */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* You can add custom styles here if desired */
+  }
+  
+  /* Large devices (992px to 1199.98px) and Extra Large devices (1200px and up) */
+  /* The default styling works for larger screens */
+  

@@ -1,0 +1,91 @@
+
+/* LoginForm.css */
+
+/* Position the input icons inside the input fields */
+.position-relative {
+    position: relative;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: x-large;
+    transform: translateY(-110%);
+    color: #aaa;
+    z-index: 2;
+  }
+  
+  /* Add left padding to the input to avoid overlapping the icon */
+  .form-outline input {
+    padding-left: 3rem;
+  }
+  
+  /* Divider styling */
+  .divider:before,
+  .divider:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 426.98px) {
+    /* Adjust full height section for mobile */
+    .vh-100 {
+      height: 200px;
+    }
+    .container.py-5.h-100 {
+      padding: 2rem 1rem;
+    }
+    /* Ensure image scales correctly */
+    .img-fluid {
+      max-width: 100%;
+      height: 200px;
+    }
+    /* Adjust button sizes if necessary */
+    .btn-lg {
+      font-size: 1rem;
+      padding: 0.25rem 1.25rem;
+      display: flex;
+
+    }
+    .mb-4{
+        margin-bottom: -0.5rem;
+        text-align: center;
+    }
+    
+  }
+  
+  @media (max-width: 786.98px) {
+    /* Adjust full height section for mobile */
+    .vh-100 {
+      height: auto;
+    }
+    .container.py-5.h-100 {
+      padding: 2rem 1rem;
+    }
+    /* Ensure image scales correctly */
+    .img-fluid {
+      max-width: 100%;
+      height: 250px;
+      padding-left: 25%;
+      display: none;
+    }
+    /* Adjust button sizes if necessary */
+    .btn-lg {
+      font-size: 1rem;
+      padding: 0.55rem 1.25rem;
+      display: flex;
+      margin-left: 30%;
+      width: 40%;
+      
+    }
+    
+    
+    .col-md-7{
+        width: 75%;
+        
+    }
+  }

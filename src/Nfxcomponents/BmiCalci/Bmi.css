@@ -1,0 +1,55 @@
+.bmi-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #000000, #434343);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .bmi-input input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .bmi-result h4 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .bmi-category {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .bmi-category.underweight {
+    color: #ffcc00;
+  }
+  
+  .bmi-category.normal {
+    color: #00cc44;
+  }
+  
+  .bmi-category.overweight {
+    color: #ff9900;
+  }
+  
+  .bmi-category.obese {
+    color: #cc0000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .bmi-container {
+      padding: 15px;
+    }
+    .bmi-input input {
+      font-size: 16px;
+    }
+  }
+  
